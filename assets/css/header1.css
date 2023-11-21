@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  width: 100%;
+}
+body header nav {
+  width: 70%;
+  margin: auto;
+  background-color: white !important;
+}
+body header nav .headerDiv {
+  justify-content: flex-end !important;
+}
+body header nav .headerDiv ul {
+  gap: 20px;
+}
+body header nav .headerDiv ul li a {
+  color: black !important;
+  font-weight: 700;
+}
+body header nav .headerDiv ul li a:hover {
+  color: #007bff !important;
+  font-weight: 700;
+  transition: 0.3s;
+}
+body header nav .headerDiv ul .dropdownList:hover div {
+  display: block;
+}

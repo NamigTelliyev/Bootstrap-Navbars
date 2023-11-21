@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+body header nav {
+  background: transparent !important;
+  width: 60%;
+  margin: auto;
+}
+body header nav .headerDiv {
+  justify-content: flex-end !important;
+}
+body header nav .headerDiv ul {
+  gap: 15px;
+}
+body header nav .headerDiv ul li #homeLink {
+  color: #d73e4d !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+body header nav .headerDiv ul li #homeLink:hover {
+  color: #d73e4d !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+body header nav .headerDiv ul li a {
+  color: white !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+body header nav .headerDiv ul li a:hover {
+  color: #d73e4d !important;
+  font-weight: 700;
+  transition: 0.3s;
+}
+body header nav .headerDiv ul .dropdownList:hover div {
+  display: block;
+  background-color: rgb(60, 60, 60);
+}
+body header nav .headerDiv ul .dropdownList:hover div a {
+  color: white !important;
+  background-color: transparent;
+  font-size: 14px !important;
+  font-weight: 600;
+}
+body header nav .headerDiv ul .dropdownList:hover div a:hover {
+  color: #d73e4d !important;
+  background-color: transparent;
+  font-size: 14px !important;
+  font-weight: 600;
+}
